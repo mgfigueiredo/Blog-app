@@ -1,4 +1,4 @@
-$primary_color: rgb(5, 5, 5);
+$primary_color: rgb(19, 9, 9);
 
 
 body {
@@ -7,18 +7,18 @@ body {
     family: Verdana, Helvetica, Arial;
     size: 18px;
   }
-  color: #e1e1f1;
+  color: #1313e2;
 }
 
 a {
-    color: #e1e1f1;
+    color: #0606f7;
   img {
     border: none;
   }
 }
 
 .clear {
-color: #e1e1f1;
+color: #1717ee;
   clear: both;
   height: 0;
   overflow: hidden;
@@ -27,14 +27,14 @@ color: #e1e1f1;
 #container {
   width: 75%;
   margin: 0 auto;
-  background: rgb(231, 225, 225);
+  background: rgb(31, 16, 16);
   padding: 20px 40px;
   border: solid 1px black;
   margin-top: 20px;
 }
 
 #content {
-    color: #e1e1f1;
+    color: #f8f8f8;
   clear: both;
   padding-top: 20px;
 }

@@ -3,9 +3,15 @@
 <ul id= "articles">
     <% @articles.each do |article| %>
         <li>
-            <%= link_to article.title, article_path(article) %>   
+            <%= link_to article.title, article_path(article), style: "color: white;"%>   
         </li>
     <% end %>
 </ul>
+<br><br>
+
+<p><%= link_to "New article", new_article_path%></p>
+<br><br><br><br>
+<h5> Note: You can log in using email: demo@demo.com and password:demopassword to explore the site's full functionality </h5>
+
 
 

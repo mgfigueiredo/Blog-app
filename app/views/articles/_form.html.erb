@@ -4,7 +4,7 @@
     <li><%= error %></li>
     <% end %>
     </ul>
-    <p>
+    <p style = "color: #B9DEED;">
         <%= f.label :title %><br />
         <%= f.text_field :title %>
     </p>
@@ -13,7 +13,7 @@
         <%= f.text_area :body%>
     </p>
 
-    <p>
+    <p style = "color: #B9DEED;">
     <% if @article.image.exists? %>
         <%= image_tag @article.image.url(:thumb)%><br/>
     <%end%>
@@ -22,7 +22,7 @@
     </p>
 
 
-    <p>
+    <p style = "color: #B9DEED;">
         <%= f.label :tag_list %><br />
         <%= f.text_field :tag_list %>
     </p>

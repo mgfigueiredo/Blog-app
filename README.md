@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is hosted on heroku. To view the app in the browser, visit https://floating-inlet-52308.herokuapp.com/
 
-Things you may want to cover:
+This app uses the rails framework for ruby, paperclip and imagemagick for the adding/resizing pictures function, sorcery for authentication and postgresql for the database. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
